@@ -138,14 +138,14 @@ app.get('/api/v1/agents', async (req, res) => {
   }                                                                                                           
   });                                                                                                         
                                                                                                               
-  /**                                                                                                         
-  * @swagger                                                                                                  
-  * /api/v1/newcompany:                                                                                       
-  *  post:                                                                                                    
-  *   summary: Add Company                                                                                    
-  *   description: Add new company                                                                            
-  *   consumes:                                                                                               
-  * *     - application/json
+/**                                                                                                         
+* @swagger                                                                                                  
+* /api/v1/newcompany:                                                                                       
+*  post:                                                                                                    
+*   summary: Add Company                                                                                    
+*   description: Add new company                                                                            
+*   consumes:                                                                                               
+*     - application/json
 *   produces:
 *     - application/json
 *   parameters:
